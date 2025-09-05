@@ -1,0 +1,24 @@
+.tableWrapper {
+  flex: 1 1 auto;
+  min-width: 300px;
+  max-width: 931px;
+}
+@media screen and (min-width: 1001px) {
+  .tableWrapper {
+    max-width: 731px;
+  }
+}
+
+.lastUpdate {
+  margin: 12px 0 0 16px;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+@media screen and (max-width: 1000px) {
+  .lastUpdate {
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--color-line-light);
+  }
+}
+
+/*# sourceMappingURL=TableBlock.module.css.map */

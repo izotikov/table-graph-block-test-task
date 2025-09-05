@@ -1,0 +1,27 @@
+:root {
+  --color-text-inverse: #FFF;
+  --color-text-primary: #172339;
+  --color-text-secondary: #454F61;
+  --color-background-black: #172339;
+  --color-background-alpha: #1111120A;
+  --color-border-light-2: #17233914;
+  --color-line-light: #17233929;
+  --color-border-light-2-header: #FFFFFF14;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  src: url("./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Italic";
+  font-style: italic;
+  src: url("./assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}

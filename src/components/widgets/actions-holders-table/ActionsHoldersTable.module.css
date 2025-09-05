@@ -1,0 +1,29 @@
+.table {
+  flex: 1;
+}
+.table :global .ant-table-tbody > tr:last-child > td:first-child {
+  border-bottom-left-radius: 16px;
+}
+.table :global .ant-table-tbody > tr:last-child > td:last-child {
+  border-bottom-right-radius: 16px;
+}
+.table :global .ant-table-thead > tr > th {
+  background-color: var(--color-background-black);
+  color: var(--color-text-inverse);
+}
+.table :global .ant-table-thead > tr > th::before {
+  background-color: var(--color-border-light-2-header) !important;
+  height: 100% !important;
+  top: 0 !important;
+  transform: none !important;
+}
+.table :global .ant-table-tbody > tr > td {
+  background-color: var(--color-background-alpha);
+  border: 1px solid var(--color-border-light-2);
+  color: var(--color-text-primary);
+}
+.table :global .ant-table-tbody > tr > td:first-child {
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=actions-holders-table.module.css.map */

@@ -1,0 +1,11 @@
+.liElem {
+  margin-bottom: 8px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--color-border-light-2);
+  color: var(--color-text-secondary);
+  @media screen and (max-width: 1430px) {
+    margin-bottom: 6px;
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+}

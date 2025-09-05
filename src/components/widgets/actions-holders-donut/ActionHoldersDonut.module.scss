@@ -1,0 +1,8 @@
+.pieContainer {
+  border: 1px solid var(--color-line-light);
+  border-radius: 16px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+svg:focus, g:focus, path:focus {outline: none}

@@ -1,0 +1,11 @@
+.pie:hover .sector {
+  opacity: 0.3;
+}
+
+.sector {
+  transition: opacity 0.2s ease;
+}
+
+.pie:hover .sector:hover {
+  opacity: 1;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "actioner-structure",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node_modules/.bin/vite --open",
+    "build": "node_modules/.bin/tsc -b && vite build",
+    "preview": "node_modules/.bin/vite preview"
+  },
+  "dependencies": {
+    "@types/node": "^24.3.0",
+    "antd": "^5.27.2",
+    "axios": "^1.11.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "recharts": "^3.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "globals": "^16.3.0",
+    "sass-embedded": "^1.92.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2"
+  }
+}
